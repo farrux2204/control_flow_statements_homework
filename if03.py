@@ -8,10 +8,9 @@ def main(a):
     """
     if a>0:
         a=a+1
-        else:
+    else:
+        if a<0:
             a=a-2
-            if a==0:
+        if a==0:
             a=10
-
-
     return a
