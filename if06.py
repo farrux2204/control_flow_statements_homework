@@ -9,6 +9,55 @@ def main(a,b,c):
         a: first number
         b: second number
         c: third number
+        x=0
+        if a<0:
+        x-=3
+        if b<0:
+        x-=3
+        if c<0:
+        x-=3
+        return x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     Returns:
         string: string with the result
