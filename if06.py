@@ -16,7 +16,7 @@ def main(a,b,c):
         x-=3
         if c<0:
         x-=3
-        return x
+        return x  
 
 
 
