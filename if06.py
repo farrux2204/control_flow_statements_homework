@@ -19,7 +19,6 @@ def main(a,b,c):
         x+=1
     if c>0:
         x+=1  
-          
     y=0
     if a<0:
         y+=1
@@ -32,4 +31,4 @@ def main(a,b,c):
     if y>x:
         s= "there are a lot of negative numbers"
     return s 
-print(main(1,2,-1))
+print(main(1,-4,-1)) 
