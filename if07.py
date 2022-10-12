@@ -12,6 +12,7 @@ def main(a):
     Returns:
         string: the message to print
     """
+    x=0
     if a>0:
         a%2==1
         x="positive odd number"
@@ -27,4 +28,4 @@ def main(a):
     if a==0:       
         x="the number is zero"
     return x
-print(main(-5))
+print(main(0))
