@@ -24,11 +24,11 @@ def main(a,b,c):
     if a<0:
         y+=1
     if b<0:
-        y+=1
+        y+=1 
     if c<0:
         y+=1
         if x>y:
         s= "there are a lot of positive numbers"
         if y>x:
         s= "there are a lot of negative numbers"
-    return s
+    return s 
