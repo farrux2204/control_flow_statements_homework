@@ -11,9 +11,9 @@ def main(a,b,c):
         c: third number
         x=0
         if a<0:
-        x-=3
+        x-=1
         if b<0:
-        x-=3
+        x-=2
         if c<0:
         x-=3
         return x  
