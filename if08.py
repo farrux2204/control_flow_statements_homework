@@ -11,4 +11,17 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    if a>=10:
+       if a%2==1:
+            s="two-digit odd number"
+    if a>=10:
+        if a%2==0:
+            s="two-digit even number"
+    if a>=100:
+       if a%2==1:
+            s="three-digit odd number"
+    if a>=100:
+        if a%2==0:
+            s="three-digit even number"
+    return s
+print(main(365))
