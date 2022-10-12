@@ -12,7 +12,7 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-      x=0
+    x=0
     if a>0:
         x+=1
     if b>0:
@@ -32,3 +32,4 @@ def main(a,b,c):
     if y>x:
         s= "there are a lot of negative numbers"
     return s 
+print(main(1,2,-1))
